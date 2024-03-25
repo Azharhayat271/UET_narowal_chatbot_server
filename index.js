@@ -58,10 +58,11 @@ app.post("/ask", async (req, res) => {
 // Enable CORS with specific options
 app.use(
   cors({
-    origin: "http://localhost:62266",
+    origin: "*",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   })
 );
+
 
 app.use("/api/auth", Signup);
 
