@@ -77,3 +77,6 @@ dbConnection.on("connected", () => {
 dbConnection.on("error", (err) => {
   console.error("MongoDB connection error:", err);
 });
+
+// Export the Express app object
+module.exports = app;
