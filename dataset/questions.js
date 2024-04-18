@@ -72,6 +72,19 @@ const predefinedQA = [
     { question: "Does UET Narowal have a policy on student grievances?", answer: "Yes, UET Narowal has a policy on student grievances that provides a mechanism for students to address concerns or complaints regarding academic or administrative matters." },
     { question: "What are the career prospects for graduates of UET Narowal?", answer: "Graduates of UET Narowal have promising career prospects, with opportunities for employment in various industries, research organizations, government agencies, and multinational corporations." },
     { question: "How many department uet narowal has?", answer: "Uet narowal has 5 department. Computer Science, Electrical, Civil, BME, Mechnical " },
+    { question: "Hi", answer: "Hello! how can I help you?" },
+        { question: "Hello", answer: "Hello! how can I help you?" },
+        { question: "Where uet narowal is located", answer: "UET Narowal is located at Muridke Road Near Adda saraj Narowal" },
+        { question: "Tell about the Computer science department", answer: "Department of Computer Science and Engineering, Narowal Campus started working in 2014 at UET Lahore, Narowal. Here the students are given the sterling opportunity to get education of highest standards in pleasant and friendly atmosphere, and to make compatible with their means. The students are laudably facilitated with Well-equipped Laboratories, state of the art Computer Labs with Internet Facility, Multimedia Assisted Classrooms, Innovation Center, unlimited Scholarships and consistently Updated Library. One of the most admirable features of Computer Science and Engineering Department at Narowal campus is its Highly Educated Faculty." },
+       { question: "tell me about electrical engineering department ", answer: "The Department of Electrical Engineering, at the University of Engineering and Technology Lahore, Narowal campus is one of the most prestigious schools of learning in the field of Electrical Engineering in Pakistan. The graduates of the Department are not only able serving in Pakistan but also represent the country in various industries and academic institutions abroad. The Department aspires that its students be better prepared to handle modern-life challenges therefore it is continuously striving to improve quality of education and research. The Department was established in 2012. The undergraduate courses have been designed to build a strong foundation in various fields of Electrical Engineering. The Department has a faculty of 9 – 4 have a Ph.D. degree while 5 have a Master’s degree. The University has a firm belief in faculty development and therefore facilitates and encourages the young members to go abroad for advanced studies. Presently, one member of the faculty is pursuing advanced degrees at USA. The Department has a well-stocked and up-to-date library for the use of the faculty and students. The Department also arranges frequent seminars and workshops in various areas of electrical, electronics, computer and control system engineering. These seminars are delivered by faculty members, and prominent researchers from home and abroad." },
+    { question: "Where cs Department is located", answer: "Computer Science and Engineering Department is located just next to the Signature Building of UET Narowal." },
+        { question: "How many labs Cs depatment has", answer: "Computer Science Department has 3 labs including General purpose Lab, Programming Lab and Hight Tech Lab." },
+        { question: "Who is the chairman of cs depatment", answer: "Dr Muhammad Idress is the chairment of Computer Science and Engineering Department" },
+
+
+
+
+
 
     
 ];
