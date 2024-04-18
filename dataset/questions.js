@@ -72,7 +72,7 @@ const predefinedQA = [
     { question: "Does UET Narowal have a policy on student grievances?", answer: "Yes, UET Narowal has a policy on student grievances that provides a mechanism for students to address concerns or complaints regarding academic or administrative matters." },
     { question: "What are the career prospects for graduates of UET Narowal?", answer: "Graduates of UET Narowal have promising career prospects, with opportunities for employment in various industries, research organizations, government agencies, and multinational corporations." },
     { question: "How many department uet narowal has?", answer: "Uet narowal has 5 department. Computer Science, Electrical, Civil, BME, Mechnical " },
-    { question: "Hi", answer: "Hello! how can I help you?" },
+    { question: "hi", answer: "Hello! how can I help you?" },
         { question: "Hello", answer: "Hello! how can I help you?" },
         { question: "Where uet narowal is located", answer: "UET Narowal is located at Muridke Road Near Adda saraj Narowal" },
         { question: "Tell about the Computer science department", answer: "Department of Computer Science and Engineering, Narowal Campus started working in 2014 at UET Lahore, Narowal. Here the students are given the sterling opportunity to get education of highest standards in pleasant and friendly atmosphere, and to make compatible with their means. The students are laudably facilitated with Well-equipped Laboratories, state of the art Computer Labs with Internet Facility, Multimedia Assisted Classrooms, Innovation Center, unlimited Scholarships and consistently Updated Library. One of the most admirable features of Computer Science and Engineering Department at Narowal campus is its Highly Educated Faculty." },
