@@ -160,10 +160,48 @@ const verifyOTPAndUpdatePassword = async (req, res) => {
   }
 };
 
+// signup without otp verification
+const signupnootp = async (req, res) => {
+  try {
+    const { name, username, email, password } = req.body;
+
+    // Check if the username or email already exists
+    const existingUser = await User.findOne({ $or: [{ username }, { email }] });
+    if (existingUser) {
+      return res
+        .status(400)
+        .json({ success: false, message: "Username or email already exists" });
+    }
+
+    // Hash the password
+    const hashedPassword = await bcrypt.hash(password, 10);
+
+    // Create a new user
+    const newUser = new User({
+      name,
+      username,
+      email,
+      password: hashedPassword,
+    });
+
+    // Save the user to the database
+    await newUser.save();
+
+    res
+      .status(201)
+      .json({ success: true, message: "User registered successfully" });
+  } catch (error) {
+    console.error("Error registering user:", error);
+    res.status(500).json({ success: false, message: "Internal server error" });
+  }
+};  
+
+
 module.exports = {
   sendOTP,
   verifyOTPAndCreateUser,
   login,
   forgetPassword,
   verifyOTPAndUpdatePassword,
+  signupnootp,
 };

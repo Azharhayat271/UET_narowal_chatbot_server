@@ -2,6 +2,9 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const Signup = require("./routes/auth");
+const Hostel= require("./routes/hostel"); 
+
+
 const dbConnection = require("./database/connection");
 const predefinedQA = require("./dataset/questions");
 const stringSimilarity = require("string-similarity");
@@ -65,6 +68,7 @@ app.use(
 
 
 app.use("/api/auth", Signup);
+app.use("/api/hostel", Hostel);
 
 // Use the Mongoose connection object to get notified when connected
 dbConnection.on("connected", () => {
