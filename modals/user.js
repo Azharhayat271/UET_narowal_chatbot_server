@@ -21,6 +21,7 @@ const UserSchema = new Schema({
     type: String,
     required: true
   }
+  
 });
 
 // Create a User model using the schema

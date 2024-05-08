@@ -7,6 +7,7 @@ const {login} = require("../controller/auth");
 const {forgetPassword} = require("../controller/auth");
 const {verifyOTPAndUpdatePassword} = require("../controller/auth");
 const {signupnootp}= require("../controller/auth");
+const {registeraccount} = require("../controller/auth");
 
 
 // Create Installment Route
@@ -16,6 +17,7 @@ router.post('/login', login);
 router.post('/forget-password', forgetPassword);
 router.post('/verify-otp', verifyOTPAndUpdatePassword);
 router.post('/signupnootp', signupnootp);
+router.post('/registeraccount', registeraccount);
 
 
 
