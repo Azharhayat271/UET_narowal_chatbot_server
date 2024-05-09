@@ -29,7 +29,7 @@ const HostelSchema = new mongoose.Schema({
         required: true
     },
     documentsLinks: {
-        type: [String],
+        type: String,
         required: true
     }
 });
